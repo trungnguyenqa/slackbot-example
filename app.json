@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "exchange-bot-spot-BTCUSDT",
+      "script": "node",
+      "args": "dist/console.js bot:spot BTCUSDT",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    {
+      "name": "exchange-bot-spot-ETHUSDT",
+      "script": "node",
+      "args": "dist/console.js bot:spot ETHUSDT",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    {
+      "name": "exchange-bot-future-BTCUSD",
+      "script": "node",
+      "args": "dist/console.js bot:future BTCUSD",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    {
+      "name": "exchange-bot-future-ETHUSD",
+      "script": "node",
+      "args": "dist/console.js bot:future ETHUSD",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  ]
+}
